@@ -1,0 +1,827 @@
+# depslib dependency file v1.0
+1390045488 source:/home/patrik/CodeBlocksProjects/Game/main.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<iostream>
+
+1390484408 source:/home/patrik/CodeBlocksProjects/Game/Window.cpp
+	"Window.h"
+
+1390484212 /home/patrik/CodeBlocksProjects/Game/Window.h
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	"Game.h"
+
+1390054305 /home/patrik/CodeBlocksProjects/Game/Game.h
+	<iostream>
+	<GLFW/glfw3.h>
+
+1390484264 source:/home/patrik/CodeBlocksProjects/Game/Game.cpp
+	"Game.h"
+
+1391810696 source:/home/patrik/CodeBlocksProjects/Game/Renderer.cpp
+	"Renderer.h"
+
+1390485353 /home/patrik/CodeBlocksProjects/Game/Renderer.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1391811323 source:/home/patrik/CodeBlocksProjects/Game/Shader.cpp
+	"Shader.h"
+
+1391811165 /home/patrik/CodeBlocksProjects/Game/Shader.h
+	<GL/glew.h>
+	<GL/glx.h>
+	<GLFW/glfw3.h>
+	<fstream>
+	<string>
+	<vector>
+
+1392417286 source:/Users/Patrik/Documents/PrototypeGame/Game.cpp
+	"Game.h"
+
+1392417005 /Users/Patrik/Documents/PrototypeGame/Game.h
+	<iostream>
+	<GLFW/glfw3.h>
+	"Renderer.h"
+
+1392417373 source:/Users/Patrik/Documents/PrototypeGame/Shader.cpp
+	"Shader.h"
+
+1392417373 /Users/Patrik/Documents/PrototypeGame/Shader.h
+	<GLFW/glfw3.h>
+	<fstream>
+	<string>
+	<vector>
+
+1388516778 /usr/local/include/GLFW/glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1392417208 source:/Users/Patrik/Documents/PrototypeGame/Renderer.cpp
+	"Renderer.h"
+
+1392417068 /Users/Patrik/Documents/PrototypeGame/Renderer.h
+	<GLFW/glfw3.h>
+	<OpenGL/gl3.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	"Shader.h"
+
+1369705958 /usr/local/include/glm/glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1364048616 /usr/local/include/glm/core/_fixes.hpp
+	<cmath>
+
+1369705958 /usr/local/include/glm/core/setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1369705958 /usr/local/include/glm/core/_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1369705958 /usr/local/include/glm/core/_vectorize.hpp
+
+1369705958 /usr/local/include/glm/core/type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1369705958 /usr/local/include/glm/core/type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1369705958 /usr/local/include/glm/core/type_half.inl
+	"_detail.hpp"
+
+1369705958 /usr/local/include/glm/core/type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1369705958 /usr/local/include/glm/core/type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1369705958 /usr/local/include/glm/core/type_gentype.hpp
+	"type_size.hpp"
+
+1369705958 /usr/local/include/glm/core/type_size.hpp
+	<cstdlib>
+
+1369705958 /usr/local/include/glm/core/type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1369705958 /usr/local/include/glm/core/type_vec.hpp
+	"type_gentype.hpp"
+
+1369705958 /usr/local/include/glm/core/_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1369705958 /usr/local/include/glm/core/_swizzle_func.hpp
+
+1369705958 /usr/local/include/glm/core/type_vec1.inl
+
+1369705958 /usr/local/include/glm/core/type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1369705958 /usr/local/include/glm/core/type_vec2.inl
+
+1369705958 /usr/local/include/glm/core/type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1369705958 /usr/local/include/glm/core/type_vec3.inl
+
+1369705958 /usr/local/include/glm/core/type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1369705958 /usr/local/include/glm/core/type_vec4.inl
+
+1369705958 /usr/local/include/glm/core/type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1369705958 /usr/local/include/glm/core/type_mat.hpp
+	"type_gentype.hpp"
+
+1369705958 /usr/local/include/glm/core/type_mat2x2.inl
+
+1369705958 /usr/local/include/glm/core/type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1369705958 /usr/local/include/glm/core/type_mat2x3.inl
+
+1369705958 /usr/local/include/glm/core/type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1369705958 /usr/local/include/glm/core/type_mat2x4.inl
+
+1369705958 /usr/local/include/glm/core/type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1369705958 /usr/local/include/glm/core/type_mat3x2.inl
+
+1369705958 /usr/local/include/glm/core/type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1369705958 /usr/local/include/glm/core/type_mat3x3.inl
+
+1369705958 /usr/local/include/glm/core/type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1369705958 /usr/local/include/glm/core/type_mat3x4.inl
+
+1369705958 /usr/local/include/glm/core/type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1369705958 /usr/local/include/glm/core/type_mat4x2.inl
+
+1369705958 /usr/local/include/glm/core/type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1369705958 /usr/local/include/glm/core/type_mat4x3.inl
+
+1369705958 /usr/local/include/glm/core/type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1369705958 /usr/local/include/glm/core/type_mat4x4.inl
+
+1369700634 /usr/local/include/glm/core/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1369705958 /usr/local/include/glm/core/func_trigonometric.inl
+
+1369700634 /usr/local/include/glm/core/func_exponential.hpp
+	"func_exponential.inl"
+
+1369700634 /usr/local/include/glm/core/func_exponential.inl
+
+1369705958 /usr/local/include/glm/core/func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1369705958 /usr/local/include/glm/core/func_common.inl
+
+1369705958 /usr/local/include/glm/core/func_packing.hpp
+	"func_packing.inl"
+
+1369705958 /usr/local/include/glm/core/func_packing.inl
+
+1369705958 /usr/local/include/glm/core/func_geometric.hpp
+	"func_geometric.inl"
+
+1369705958 /usr/local/include/glm/core/func_geometric.inl
+
+1369705958 /usr/local/include/glm/core/func_matrix.hpp
+	"func_matrix.inl"
+
+1369705958 /usr/local/include/glm/core/func_matrix.inl
+
+1369705958 /usr/local/include/glm/core/func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1369705958 /usr/local/include/glm/core/func_vector_relational.inl
+
+1369705958 /usr/local/include/glm/core/func_integer.hpp
+	"func_integer.inl"
+
+1369705958 /usr/local/include/glm/core/func_integer.inl
+	<intrin.h>
+
+1369705958 /usr/local/include/glm/core/func_noise.hpp
+	"func_noise.inl"
+
+1369705958 /usr/local/include/glm/core/func_noise.inl
+
+1369705958 /usr/local/include/glm/gtx/transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1369705958 /usr/local/include/glm/gtc/matrix_transform.hpp
+	"../glm.hpp"
+	"matrix_transform.inl"
+
+1369705958 /usr/local/include/glm/gtc/matrix_transform.inl
+
+1369705958 /usr/local/include/glm/gtx/transform.inl
+
+1392411817 source:/Users/Patrik/Documents/PrototypeGame/Window.cpp
+	"Window.h"
+
+1392380908 /Users/Patrik/Documents/PrototypeGame/Window.h
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<GLFW/glfw3.h>
+	"Game.h"
+
+1392412334 /usr/local/include/OpenGL/gl3.h
+	<windows.h>
+	<OpenGL/gltypes.h>
+
+1392412334 /usr/local/include/OpenGL/gltypes.h
+	<stdint.h>
+
+1392412334 /usr/local/include/OpenGL/gl.h
+	<OpenGL/gltypes.h>
+	<OpenGL/glext.h>
+
+1392412334 /usr/local/include/OpenGL/glext.h
+	<OpenGL/gltypes.h>
+
+1392412334 /usr/local/include/OpenGL/glu.h
+	<OpenGL/OpenGLAvailability.h>
+	<OpenGL/gl.h>
+
+1392412334 /usr/local/include/OpenGL/OpenGLAvailability.h
+	<Availability.h>
+
+1392719996 source:h:\windowsfiler\prototypegame\game.cpp
+	"Game.h"
+
+1392719196 h:\windowsfiler\prototypegame\game.h
+	<iostream>
+	"Core.h"
+
+1392626811 c:\users\patrik\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1392643612 h:\windowsfiler\prototypegame\renderer.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	"Shader.h"
+	<iostream>
+
+1392626829 c:\users\patrik\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1392626831 c:\users\patrik\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1392626829 c:\users\patrik\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<cstdint>
+
+1392626830 c:\users\patrik\include\glm\detail\setup.hpp
+	<cassert>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1392626830 c:\users\patrik\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1392626831 c:\users\patrik\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\precision.hpp
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1392626830 c:\users\patrik\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1392626831 c:\users\patrik\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1392626831 c:\users\patrik\include\glm\detail\_swizzle.hpp
+
+1392626831 c:\users\patrik\include\glm\detail\_swizzle_func.hpp
+
+1392626831 c:\users\patrik\include\glm\detail\type_vec2.inl
+
+1392626830 c:\users\patrik\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1392626831 c:\users\patrik\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1392626831 c:\users\patrik\include\glm\detail\type_vec3.inl
+
+1392626830 c:\users\patrik\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1392626831 c:\users\patrik\include\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1392626831 c:\users\patrik\include\glm\detail\type_vec4.inl
+
+1392626829 c:\users\patrik\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x2.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat2x2.inl
+
+1392626829 c:\users\patrik\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x3.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat2x3.inl
+
+1392626829 c:\users\patrik\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x4.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat2x4.inl
+
+1392626829 c:\users\patrik\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x2.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat3x2.inl
+
+1392626829 c:\users\patrik\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x3.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\type_mat3x3.inl
+
+1392626829 c:\users\patrik\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1392626831 c:\users\patrik\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x4.inl"
+
+1392626831 c:\users\patrik\include\glm\detail\type_mat3x4.inl
+
+1392626829 c:\users\patrik\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1392626831 c:\users\patrik\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x2.inl"
+
+1392626831 c:\users\patrik\include\glm\detail\type_mat4x2.inl
+
+1392626829 c:\users\patrik\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1392626831 c:\users\patrik\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x3.inl"
+
+1392626831 c:\users\patrik\include\glm\detail\type_mat4x3.inl
+
+1392626829 c:\users\patrik\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1392626831 c:\users\patrik\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1392626831 c:\users\patrik\include\glm\detail\type_mat4x4.inl
+
+1392626830 c:\users\patrik\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1392626831 c:\users\patrik\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1392626831 c:\users\patrik\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1392626831 c:\users\patrik\include\glm\detail\type_vec1.inl
+
+1392626829 c:\users\patrik\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cassert>
+
+1392626830 c:\users\patrik\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\func_vector_relational.inl
+	<limits>
+
+1392626829 c:\users\patrik\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1392626829 c:\users\patrik\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\type_half.inl
+
+1392626829 c:\users\patrik\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1392626829 c:\users\patrik\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1392626830 c:\users\patrik\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1392626829 c:\users\patrik\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1392626830 c:\users\patrik\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"func_integer.inl"
+
+1392626830 c:\users\patrik\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1392626833 c:\users\patrik\include\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1392626831 c:\users\patrik\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"matrix_transform.inl"
+
+1392626831 c:\users\patrik\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1392626833 c:\users\patrik\include\glm\gtx\transform.inl
+
+1392644680 h:\windowsfiler\prototypegame\shader.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+
+1392650630 source:h:\windowsfiler\prototypegame\renderer.cpp
+	"Renderer.h"
+
+1392646024 source:h:\windowsfiler\prototypegame\shader.cpp
+	"Shader.h"
+
+1392628466 c:\users\patrik\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1392727148 source:h:\windowsfiler\prototypegame\core.cpp
+	"Core.h"
+
+1392731268 h:\windowsfiler\prototypegame\core.h
+	<iostream>
+	<string>
+	"Window.h"
+	"Renderer.h"
+	"Time.h"
+
+1392643436 h:\windowsfiler\prototypegame\window.h
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1392639634 source:h:\windowsfiler\prototypegame\window.cpp
+	"Window.h"
+
+1392678298 source:h:\windowsfiler\prototypegame\main.cpp
+	"Core.h"
+	"Game.h"
+
+1392727108 h:\windowsfiler\prototypegame\time.h
+	<GLFW/glfw3.h>
+	<memory>
+
+1392728580 source:h:\windowsfiler\prototypegame\time.cpp
+	"Time.h"
+
